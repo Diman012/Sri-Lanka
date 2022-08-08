@@ -1,0 +1,229 @@
+body {
+    background-color:white;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    /* border: 5px solid #FFFF00; */
+    padding: 10px;
+    font-size:6rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight:bold;
+
+}
+
+h3 {
+    position: absolute;
+    padding:100px;
+    left:25%;
+    top:40%;
+    font-size:2.7rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight:bold;
+}
+
+.picture-holder {
+    outline: 2px solid black;
+    background-size: 100%;
+    background-image: url("images/sri\ lanka\ pic.jpg");
+    padding:40em;
+    background-repeat: no-repeat;
+}
+
+.arrowdown {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.arrowdown {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;  
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-bottom:30px;
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:20px;}
+    50%  {left:0px; top:30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+
+.squiggly {
+    height:50px;
+    width:100%;
+}
+
+.nature {
+    padding:30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-image: url("images/natureimage1.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size:6rem;
+    text-shadow: 2px 2px 5px dimgrey;
+}
+
+h4 {
+    font-weight:bold;
+    font-family: 'Noto Sans', sans-serif;
+    color:dimgrey;
+    font-size:1.7rem;
+    word-spacing: 3mm;
+}
+
+.nature img {
+    transform: rotate(-15deg);
+    border-radius:80%;
+    height:30%;
+    width:30%;
+    position: relative;
+    left:60%;
+    
+}
+
+.culture {
+    padding:30px;
+    margin-bottom:30px;
+    text-align:right;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-image: url("images/cultureimage2.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+
+.culture img {
+    transform: rotate(15deg);
+    border-radius:80%;
+    height:-30%;
+    width:-30%;
+    position: relative;
+    left:-300px;
+}
+
+.culture h4, h2 {
+    color:white;
+}
+
+.as {
+    font-size:1.3rem;
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    font-family: 'Heebo', sans-serif;
+}
+
+.sa {
+    font-size:1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.history{
+    background-image:url("images/srilankahistory.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding:3%;
+}
+
+.history h4 {
+    color:black;
+    font-weight:bold;
+}
+
+.outro {
+    text-align:center;
+    padding:10px;
+}
+
+.outro h2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.outro p {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:gray;
+    font-size:1.3rem;
+}
+
+.fa-plane {
+    font-size:4rem;
+    color:pink;
+    padding-left:40px;
+}
+
+
+.fa-plane:hover {
+    font-size:5rem;
+}
+
+.fa-bed {
+    font-size:4rem;
+    color:pink;
+    padding-left:40px;
+}
+
+.fa-bed:hover {
+    font-size:5rem;
+}
+
+.fa-hand-holding-heart {
+    font-size:4rem;
+    color:pink;
+    padding-left:40px;
+}
+
+.fa-hand-holding-heart:hover {
+    font-size:5rem;
+}
+
+.fa-bed:hover {
+    font-size:5rem;
+}
+
+.final {
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    padding:20px;
+    padding-left:100px;
+    word-spacing: 5rem;
+    background-color:#CEE5D0;
+    height:400px;
+}
+
+.fa-discord {
+    font-size:2.5rem;
+}
+
+.fa-instagram {
+    font-size:2.5rem;
+}
+
+.fa-envelope 
+{
+    font-size:2.5rem;
+}
+
+/* this is css. it like colors the website. there is 120 lines of code here lel. */
